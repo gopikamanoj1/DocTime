@@ -31,6 +31,7 @@ export default (dependencies: any) => {
                     const imageUrl:any= await uploadToS3(image, `${email}-profileImage`);
                     img=imageUrl
                     console.log('Image is a base64 string');
+                    
                 } 
             }
             // 
