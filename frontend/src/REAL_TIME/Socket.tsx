@@ -6,7 +6,7 @@ export const useSocket = (): Socket<any>| null => {
     const [socket, setSocket] = useState<Socket<any> | null>(null);
 
     useEffect(() => {
-        const newSocket = io("https://doctime.live", {
+        const newSocket = io("https://doctime-pot3.onrender.com", {
             reconnect: true,
             secure: true,
             transports: ['polling', 'websocket'], 

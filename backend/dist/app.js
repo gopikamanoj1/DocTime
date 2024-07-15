@@ -56,7 +56,7 @@ app.use((0, express_session_1.default)(sessionOptions));
 // Configure Express
 (0, express_1.default)(app);
 const io = require('socket.io')(server, {
-    cors: { origin: ["http://localhost:5173", "https://doctime.live", 'http://localhost:3000'] }
+    cors: { origin: ["http://localhost:5173", "https://doctime.live", 'http://localhost:3000', 'https://doctime-1.onrender.com', 'https://doctime-pot3.onrender.com'] }
 });
 let users = [];
 const addUser = (userId, socketId) => {
