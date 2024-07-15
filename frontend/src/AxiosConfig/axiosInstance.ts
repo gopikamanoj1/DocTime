@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // Create an Axios instance with default settings
 const axiosInstance = axios.create({
-  baseURL: "https://doctime.live/",
+  baseURL: "https://doctime-pot3.onrender.com",
   timeout: 100000, // 10 seconds timeout
   headers: {
     'Content-Type': 'application/json',
