@@ -21,7 +21,7 @@ const expressConfig = (app: Express) => {
  
   app.use(
     cors({
-      origin: ["https://doctime.live"],
+      origin: ["https://doctime.live","http://localhost:3000"],
       methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
       credentials: true,
     })
