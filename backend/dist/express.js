@@ -18,7 +18,7 @@ const expressConfig = (app) => {
     app.use(cookieParser(process.env.COOKIEPARSERSECRET));
     app.use(express_1.default.static("public/"));
     app.use((0, cors_1.default)({
-        origin: ["https://doctime.live"],
+        origin: ["https://doctime.live", "http://localhost:3000"],
         methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
         credentials: true,
     }));
