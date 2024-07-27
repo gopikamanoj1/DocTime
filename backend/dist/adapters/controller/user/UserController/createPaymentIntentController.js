@@ -28,8 +28,8 @@ exports.default = (dependecies) => {
                     }
                 ],
                 mode: "payment",
-                success_url: `https://doctime-pot3.onrender.com/successAppointment`,
-                cancel_url: "https://doctime-pot3.onrender.com/findDoctor",
+                success_url: `https://doctime-1.onrender.com/successAppointment`,
+                cancel_url: "https://doctime-1.onrender.com/findDoctor",
                 billing_address_collection: 'required',
                 customer_email: 'customer@example.com',
             });
